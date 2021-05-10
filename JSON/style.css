@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo da 2';
+}
+
+body{
+    background-color: #07080b;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.principal{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(226, 167, 90);
+    margin-top: 15vh;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px #0008;
+}
+
+.dados{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dados label{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 8px;
+}
+
+.dados input{
+    border: none;
+    border-radius: 4px;
+    padding: 0 3px;
+    font-size: 16px;
+    background: #fafafa;
+    color: rgb(176, 117, 40);
+}
+
+.dados input:focus{
+    outline: 0;
+}
+
+.btn{
+    text-align: center;
+    width: 120px;
+    border: none;
+    outline: 0;
+    border-radius: 5px;
+    color: #f0f0f0;
+    background-color: rgb(196, 137, 60);
+    box-shadow: 1px 1px 2px #0005;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.btn:hover{
+    background-color: rgb(176, 117, 40);
+    box-shadow: 1px 1px 2px #0005;
+    transition: 0.3s all;
+}
+
+.endResp{
+    color: #fff;
+    margin-top: 5%;
+    text-align: center;
+}
