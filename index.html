@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pesquisador de CEP</title>
+    <title>Consultor de CEP</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    <header class="header">
+        <h1>Consultor de Endereços</h1>
+    </header>
     <div class="container">
         <section class="principal">
             <div class="dados">
                 <label for="cep">CEP</label>
-                <input type="text" name='cep' id="cep" placeholder="Digite o seu CEP" autocomplete="off">
+                <input type="search" name='cep' id="cep" placeholder="Digite o seu CEP" autocomplete="off">
                 <button class="btn" onclick="pesquisar()">Pesquisar</button>
             </div>
 
